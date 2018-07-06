@@ -17,5 +17,5 @@ for data in line:
 
 datafile.close()
 
-for na in collection.find():
-    print(na)
+for city in collection.find():
+    print(city)

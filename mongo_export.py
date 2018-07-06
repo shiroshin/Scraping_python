@@ -1,5 +1,7 @@
 import csv
+import sys
 from pymongo import MongoClient
+
 
 client = MongoClient('localhost', 27017)
 
